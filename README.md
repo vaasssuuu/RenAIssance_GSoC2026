@@ -51,5 +51,5 @@ Across the 5 handwritten documents, the pipeline consistently achieved an estima
 To run this pipeline:
 1. Upload the provided CERN dataset to a Google Drive folder named `RenAIssance_Data`.
 2. Open the `.ipynb` file in Google Colab.
-3. Add your Gemini API key to the Colab Secrets manager under the variable name `GEMINI_API_KEY`.
+3. Add your Gemini API key to the Colab Secrets manager under the variable name `gemini_api`.
 4. Execute all cells. *(Note: The pipeline includes an exponential backoff function to gracefully handle free-tier API rate limits).*
