@@ -7,7 +7,7 @@
 ## Project Overview
 This repository contains the evaluation code and architectural proof-of-concept for the RenAIssance GSoC 2026 project. The objective is to build a robust Optical Character Recognition (OCR) pipeline for early modern Spanish manuscripts (17th-18th century). 
 
-Rather than utilizing a Large Language Model (LLM) solely as a post-processing spellchecker, this project implements a **Multi-Agent Neurosymbolic Pipeline** where Vision-Language Models (VLMs) are deeply embedded throughout the entire extraction, interpretation, and formatting lifecycle.
+Rather than utilizing a Large Language Model (LLM) solely as a post-processing spellchecker, this project implements a **Multi-Agent Hybrid Pipeline** where Vision-Language Models (VLMs) are deeply embedded throughout the entire extraction, interpretation, and formatting lifecycle.
 
 ## The Architecture: A 4-Stage Multi-Agent Pipeline
 Zero-shot VLM transcription fundamentally struggles with historical diplomatic formatting—specifically archaic abbreviations, non-standard hyphenation across line breaks, and faded ink on porous paper. To exceed the 90% accuracy threshold required by the project, this pipeline implements four engineered tactics:
